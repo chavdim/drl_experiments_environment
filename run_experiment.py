@@ -10,7 +10,7 @@ import os
 import matplotlib.pyplot as plt
 import numpy as np
 ####
-env = 'ppong-v0'
+env = 'Pixelcopter-v0'
 run_params = {"run_interval":2000,
               "max_steps":100000,
               "log":1,
