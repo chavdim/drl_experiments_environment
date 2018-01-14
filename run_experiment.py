@@ -7,7 +7,7 @@ Created on Sun Jan  7 12:07:14 2018
 """
 import experimenter
 import os
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import numpy as np
 ####
 env = 'Pixelcopter-v0'
@@ -30,6 +30,7 @@ epx = experimenter.Experiment("exp_pong_smallball3",env)
 epx.run(run_params,nn_params=nnetwork_params)
 #### compare results of different experiments
 curr_path = os.path.dirname(os.path.realpath(__file__))
+"""
 def plotMultipleExperiments(exp_names,current_path):
     colors=["r","b","g"]
     t=0
@@ -48,3 +49,4 @@ def plotMultipleExperiments(exp_names,current_path):
         t+=1
     plt.show()
         
+"""
